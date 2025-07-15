@@ -120,6 +120,10 @@ User segmentation by activity level
 Time-series patterns of engagement
 ![Dashboard](images/pbi_1.png)
 
+## 📊 Power BI Dashboard
+
+> 🔗 [Click here to download the Power BI dashboard (.pbix)](https://drive.google.com/file/d/1OrN4FeEa0GlX4eJ3qLfXfEfhJEmrWDdt/view?usp=drive_link)
+
 📬 Contact
 
 👨‍💻 Author: Ha Thuy Nguyen
