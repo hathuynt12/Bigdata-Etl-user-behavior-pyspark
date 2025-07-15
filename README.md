@@ -32,19 +32,24 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 ## 🗂️ Project Structure
 bigdata-etl-user-behavior-pyspark/
 │
+
 ├── etl/
+
 │ └── etl_customer_behavior.py # Main ETL script
 │
+
 ├── data/
-│ └── sample/
+
+│ └── sample/ (30 days)
+
 │ └── 20220401.json # Example raw JSON log
 │
 ├── powerbi/
-│ └── dashboard.pbix # Power BI dashboard file (or screenshots if confidential)
+
+│ └── Content_Consumption_Insights.pbix # Power BI dashboard file
 │
-├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
-└── .gitignore # Ignored files and folders
+
 
 
 ## 🔄 ETL Flow
@@ -89,6 +94,18 @@ bigdata-etl-user-behavior-pyspark/
 | 10002    | 0              | 1200              | 0              | 0                | 0                  | 1      | Phim Truyen | Phim Truyen                             | Low    |
 | 10003    | 800            | 0                 | 1100           | 300              | 900                | 5      | The Thao    | Giai Tri-The Thao-Truyen Hinh-Thieu Nhi | High   |
 
+📊 Power BI Dashboard
+The dashboard provides:
 
+Distribution of content preferences
 
+Mostwatched types by customer
 
+User segmentation by activity level
+
+Time-series patterns of engagement
+![Dashboard](images/pbi_1.png)
+
+📬 Contact
+
+👨‍💻 Author: Ha Thuy Nguyen
