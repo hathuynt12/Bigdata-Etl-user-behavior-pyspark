@@ -55,7 +55,7 @@ bigdata-etl-user-behavior-pyspark/
 │ └── 20220407.json # Example raw JSON log
 
 │
-├── Content_Consumption_Insights.pbix # Power BI dashboard file
+├── Content_Consumption_Insights.pbix # Power BI dashboard file (Link drive)
 
 ├── mysql-connector-j-8.0.33.jar
 
