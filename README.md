@@ -12,6 +12,7 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
   - **Mostwatched Content Type**
   - **Taste Preferences**
   - **Active Level (Engagement over time)**
+  - **Watching Total hours  by channel**
 - ✅ Stored results in **MySQL** for downstream analytics or BI integration.
 - ✅ Visualized results in an interactive **Power BI dashboard**.
 
@@ -33,20 +34,33 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 bigdata-etl-user-behavior-pyspark/
 │
 
-├── etl/
+├── etl_customer_behavior.py # Main ETL script
 
-│ └── etl_customer_behavior.py # Main ETL script
+
+├── datasamples(7days)/
+
 │
-
-├── data/
-
-│ └── sample/ (30 days)
-
 │ └── 20220401.json # Example raw JSON log
-│
-├── powerbi/
 
-│ └── Content_Consumption_Insights.pbix # Power BI dashboard file
+│ └── 20220402.json # Example raw JSON log
+
+│ └── 20220403.json # Example raw JSON log
+
+│ └── 20220404.json # Example raw JSON log
+
+│ └── 20220405.json # Example raw JSON log
+
+│ └── 20220406.json # Example raw JSON log
+
+│ └── 20220407.json # Example raw JSON log
+
+│
+├── Content_Consumption_Insights.pbix # Power BI dashboard file
+
+├── mysql-connector-j-8.0.33.jar
+
+├── mysql-connector-net-9.3.0
+
 │
 ├── README.md # Project documentation
 
